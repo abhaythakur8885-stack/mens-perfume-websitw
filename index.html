@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Perfume - Black & Red Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+        }
+        header {
+            background-color: #b22222; /* Red header */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff4500; /* Darker red on hover */
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400/000000/FFFFFF?text=Men%27s+Perfume+Hero'); /* Placeholder image */
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #b22222; /* Red title */
+        }
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .product {
+            display: inline-block;
+            margin: 20px;
+            width: 300px;
+            background-color: #111; /* Dark gray card */
+            border: 2px solid #b22222; /* Red border */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+        }
+        .product h3 {
+            color: #b22222;
+            margin: 10px 0;
+        }
+        .product p {
+            padding: 0 10px;
+        }
+        .btn {
+            background-color: #b22222;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 10px;
+        }
+        .btn:hover {
+            background-color: #ff4500;
+        }
+        footer {
+            background-color: #b22222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Men's Perfume Emporium</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div>
+            <h1>Discover Bold Scents</h1>
+            <p>Premium perfumes for the modern man – intense, sophisticated, and unforgettable.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Our Collection</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200/000000/FFFFFF?text=Perfume+1" alt="Perfume 1">
+            <h3>Midnight Blaze</h3>
+            <p>A smoky, woody scent with hints of leather. Perfect for evening outings.</p>
+            <button class="btn">Buy Now - $49.99</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200/000000/FFFFFF?text=Perfume+2" alt="Perfume 2">
+            <h3>Crimson Edge</h3>
+            <p>Fresh citrus notes with a spicy kick. Ideal for daytime confidence.</p>
+            <button class="btn">Buy Now - $39.99</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200/000000/FFFFFF?text=Perfume+3" alt="Perfume 3">
+            <h3>Dark Velvet</h3>
+            <p>Luxurious vanilla and musk blend. For the discerning gentleman.</p>
+            <button class="btn">Buy Now - $59.99</button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2023 Men's Perfume Emporium. All rights reserved.</p>
+        <p>Contact us: info@perfumeemporium.com</p>
+    </footer>
+
+    <script>
+        // Simple script to make buttons alert on click (placeholder for real functionality)
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                alert('Redirecting to purchase page... (This is a demo)');
+            });
+        });
+    </script>
+</body>
+</html>
